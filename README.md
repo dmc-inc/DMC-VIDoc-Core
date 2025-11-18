@@ -22,6 +22,7 @@ This must be called from the working directory you want to analyze.
 - **-url** | Confluence URL
 - **-email** | Confluence Email
 - **-token** | Confluence Access Token
+- **-scoped** | Indicates if Access Token is Scoped or Unscoped
 - **-help** | Returns this help information
 
 # [Wiki Homepage](../../wikis/Home)
