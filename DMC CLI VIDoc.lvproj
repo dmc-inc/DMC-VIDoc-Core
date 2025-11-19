@@ -23,6 +23,7 @@
 				<Item Name="Check Confluence Settings.vi" Type="VI" URL="../Source/Check Confluence Settings.vi"/>
 				<Item Name="Confluence Settings.ctl" Type="VI" URL="../Source/Confluence Settings.ctl"/>
 				<Item Name="Default Doc Settings Path.vi" Type="VI" URL="../Source/Default Doc Settings Path.vi"/>
+				<Item Name="Default.json" Type="Document" URL="../Source/Default.json"/>
 				<Item Name="Determine Confluence Connection.vi" Type="VI" URL="../Source/Determine Confluence Connection.vi"/>
 				<Item Name="DMC CLI Confluence Documentation State.ctl" Type="VI" URL="../Source/DMC CLI Confluence Documentation State.ctl"/>
 				<Item Name="File Exists.vi" Type="VI" URL="../Source/File Exists.vi"/>

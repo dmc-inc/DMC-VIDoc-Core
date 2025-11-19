@@ -9,86 +9,37 @@
       "Queues & Notifiers":"Draw"
     },
     "Max Control Recursion Depth":3,
-    "UI Bookmarks":["#UI","#GUI"],
-    "Subpanel Bookmarks":["#Subpanel"],
-    "Dialog Bookmarks":["#Dialog"]
+    "Bookmarks Map":[
+      [
+        "Dialog",
+        ["Dialog","#Dialog"]
+      ],
+      [
+        "Subpanel",
+        ["Subpanel","#Subpanel"]
+      ],
+      [
+        "User Interface",
+        ["GUI","#GUI"]
+      ]
+    ]
   },
   "Enabled Sections":{
     "Projects":true,
-    "User Interfaces":true,
-    "Subpanels":true,
-    "Dialogs":true,
     "Interfaces":true,
     "Classes":true,
     "Libraries":true,
     "VIs":true,
     "Controls":true,
-	"LLBs":true
+    "LLBs":true
   },
   "Printer":{
-	"Library Scope":{
-	"Public":true,
-	"Community":false,
-	"Private":false,
-	"Unknown":true
-	},
     "Project":{
       "Paths":true,
       "Descriptions":true,
       "Memory":true,
       "Options":true,
       "Symbols":true
-    },
-    "User Interface":{
-      "Memory":true,
-      "By Folder":false,
-      "By Tree":false,
-      "By List":true,
-      "Methods":true,
-      "Method Options":{
-        "Front Panels":true,
-        "Options":true,
-        "Controls":true
-      },
-      "List Detail Level":"Minimal",
-      "Methods Detail Level":"Full",
-      "Controls Detail Level":"Standard"
-    },
-    "LLB":{
-      "Methods":true,
-      "Controls":true,
-      "Methods Detail Level":"Full",
-      "Controls Detail Level":"Standard"
-    },
-    "Subpanel":{
-      "Memory":true,
-      "By Folder":false,
-      "By Tree":false,
-      "By List":true,
-      "Methods":true,
-      "Method Options":{
-        "Front Panels":true,
-        "Options":true,
-        "Controls":true
-      },
-      "List Detail Level":"Minimal",
-      "Methods Detail Level":"Standard",
-      "Controls Detail Level":"Standard"
-    },
-    "Dialog":{
-      "Memory":true,
-      "By Folder":false,
-      "By Tree":false,
-      "By List":true,
-      "Methods":true,
-      "Method Options":{
-        "Front Panels":true,
-        "Options":true,
-        "Controls":true
-      },
-      "List Detail Level":"Minimal",
-      "Methods Detail Level":"Standard",
-      "Controls Detail Level":"Standard"
     },
     "VI Member":{
       "Memory":true,
@@ -101,9 +52,9 @@
         "Options":true,
         "Controls":true
       },
-      "List Detail Level":"Minimal",
-      "Methods Detail Level":"Standard",
-      "Controls Detail Level":"Standard"
+      "List Detail Level":"Full",
+      "Methods Detail Level":"Full",
+      "Controls Detail Level":"Full"
     },
     "Interface":{
       "Memory":true,
@@ -153,12 +104,12 @@
           "Friends":true
         }
       },
-      "CPD Detail Level":"Standard",
+      "CPD Detail Level":"Full",
       "List Detail Level":"Full",
       "Controls Detail Level":"Full",
       "Methods Detail Level":"Full",
-      "Set Accessor Detail Level":"Minimal",
-      "Get Accessor Detail Level":"Minimal",
+      "Set Accessor Detail Level":"Full",
+      "Get Accessor Detail Level":"Full",
       "Controls Scope":{
         "Public":true,
         "Protected":true,
@@ -197,11 +148,12 @@
       "Detail Options":{
         "Description":true,
         "Properties":true,
-        "Friends":true
+        "Friends":true,
+        "Child Libraries":true
       },
       "List Detail Level":"Full",
-      "Methods Detail Level":"Standard",
-      "Controls Detail Level":"Standard",
+      "Methods Detail Level":"Full",
+      "Controls Detail Level":"Full",
       "Methods Scope":{
         "Public":true,
         "Protected":true,
@@ -284,7 +236,75 @@
         "Unique Bookmark Tags Only":true,
         "Include Tag and Text":true
       }
-    }
+    },
+    "Library Scope":{
+      "Public":true,
+      "Community":false,
+      "Private":false,
+      "Unknown":true
+    },
+    "LLB":{
+      "Methods":true,
+      "Controls":true,
+      "Methods Detail Level":"Full",
+      "Controls Detail Level":"Full"
+    },
+    "Bookmark Settings Map":[
+      [
+        "Dialog",
+        {
+          "Memory":true,
+          "By Folder":true,
+          "By Tree":true,
+          "By List":true,
+          "Methods":true,
+          "Method Options":{
+            "Front Panels":true,
+            "Options":true,
+            "Controls":true
+          },
+          "List Detail Level":"Full",
+          "Methods Detail Level":"Full",
+          "Controls Detail Level":"Full"
+        }
+      ],
+      [
+        "Subpanel",
+        {
+          "Memory":true,
+          "By Folder":true,
+          "By Tree":true,
+          "By List":true,
+          "Methods":true,
+          "Method Options":{
+            "Front Panels":true,
+            "Options":true,
+            "Controls":true
+          },
+          "List Detail Level":"Full",
+          "Methods Detail Level":"Full",
+          "Controls Detail Level":"Full"
+        }
+      ],
+      [
+        "User Interface",
+        {
+          "Memory":true,
+          "By Folder":true,
+          "By Tree":true,
+          "By List":true,
+          "Methods":true,
+          "Method Options":{
+            "Front Panels":true,
+            "Options":true,
+            "Controls":true
+          },
+          "List Detail Level":"Full",
+          "Methods Detail Level":"Full",
+          "Controls Detail Level":"Full"
+        }
+      ]
+    ]
   },
   "Confluence Printer":{
     "Expand Structures":{
@@ -329,7 +349,7 @@
     },
     "Sortable Tables":true,
     "Table Column Ordering":{
-      "Class":{
+      "Class List":{
         "Minimal":["Name","Description","Last Change"],
         "Standard":[
           "Image",
@@ -347,7 +367,7 @@
           "Version"
         ]
       },
-      "Library":{
+      "Library List":{
         "Minimal":["Name","Description","Last Change"],
         "Standard":[
           "Image",
@@ -365,7 +385,7 @@
           "Version"
         ]
       },
-      "Control":{
+      "Control FP":{
         "Minimal":["Name","Data Type","Description"],
         "Standard":[
           "Name",
@@ -383,12 +403,12 @@
           "Key Toggle"
         ]
       },
-      "Control Method":{
+      "Library Control Files":{
         "Minimal":["Name","Scope","Type","FP"],
         "Standard":["Name","Scope","Type","FP"],
         "Full":["Name","Scope","Type","FP"]
       },
-      "UI":{
+      "UI Methods":{
         "Minimal":[
           "Name",
           "Conpane",
@@ -417,11 +437,7 @@
           "Inline",
           "Auto Error",
           "Compiled",
-          "Code Complexity",
-          "Data Size",
-          "Debug",
           "Priority",
-          "Rev",
           "Minimum Size",
           "Title",
           "FP Behavior",
@@ -436,7 +452,7 @@
           "Name",
           "Description",
           "Last Change",
-		  "Branch"
+          "Branch"
         ],
         "Full":[
           "VI Icon",
@@ -447,20 +463,20 @@
           "Rev"
         ]
       },
-      "Interface":{
+      "Interface Methods":{
         "Minimal":[
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Last Change",
-		  "Branch"
+          "Branch"
         ],
         "Standard":[
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Reentrant",
           "Inline",
           "Auto Error",
@@ -471,25 +487,23 @@
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Last Change",
           "Reentrant",
           "Auto Error",
           "Compiled",
-          "Debug",
           "Priority",
-          "Rev",
           "Commit Hash",
           "Branch"
         ]
       },
-      "VI Method":{
+      "LLB Methods":{
         "Minimal":[
           "Name",
           "Conpane",
           "Description",
           "Last Change",
-		  "Branch"
+          "Branch"
         ],
         "Standard":[
           "Name",
@@ -512,28 +526,24 @@
           "Inline",
           "Auto Error",
           "Compiled",
-          "Code Complexity",
-          "Data Size",
-          "Debug",
           "Priority",
-          "Rev",
           "Commit Hash"
         ]
       },
-      "Library Method":{
+      "Library Methods":{
         "Minimal":[
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Last Change",
-		  "Branch"
+          "Branch"
         ],
         "Standard":[
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Reentrant",
           "Inline",
           "Auto Error",
@@ -547,33 +557,29 @@
           "Branch",
           "Last Change",
           "BD",
-		  "Scope",
+          "Scope",
           "Reentrant",
           "Inline",
           "Auto Error",
           "Compiled",
-          "Code Complexity",
-          "Data Size",
-          "Debug",
           "Priority",
-          "Rev",
           "Commit Hash"
         ]
       },
-      "Class Method":{
+      "Class Methods":{
         "Minimal":[
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Last Change",
-		  "Branch"
+          "Branch"
         ],
         "Standard":[
           "Name",
           "Conpane",
           "Description",
-		  "Scope",
+          "Scope",
           "Reentrant",
           "Inline",
           "Auto Error",
@@ -587,7 +593,30 @@
           "Branch",
           "Last Change",
           "BD",
-		  "Scope",
+          "Scope",
+          "Reentrant",
+          "Inline",
+          "Auto Error",
+          "Compiled",
+          "Priority",
+          "Commit Hash"
+        ]
+      }
+    },
+    "Confluence Connection":{
+      "Connection Type":"Cloud",
+      "URL":"",
+      "Email":""
+    }
+  }
+}       "Name",
+          "Conpane",
+          "Description",
+          "Branch",
+          "Last Change",
+          "BD",
+          "Structure Tree",
+          "Scope",
           "Reentrant",
           "Inline",
           "Auto Error",
@@ -600,6 +629,11 @@
           "Commit Hash"
         ]
       }
+    },
+    "Confluence Connection":{
+      "Connection Type":"Cloud",
+      "URL":"",
+      "Email":""
     }
   }
 }
