@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2017-04-20 13:03:41" Modified_Date="2025-11-19 11:33:31" Creator="Jesse Batsche" Comments="" ID="e9808745a5f6cf0768d9ab37a9490b1e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2017-04-20 13:03:41" Modified_Date="2025-11-19 16:22:07" Creator="Jesse Batsche" Comments="" ID="6a081649f0b0cfd0053d0362f35774d3">
   <Library_General_Settings>
     <Package_File_Name>DMC_lib_DMC_CLI_VIDoc</Package_File_Name>
-    <Library_Version>1.0.1.11</Library_Version>
+    <Library_Version>1.0.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
