@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2017-04-20 13:03:41" Modified_Date="2025-12-08 13:16:14" Creator="Jesse Batsche" Comments="" ID="02240f956ff0f39622c08c7891cf4fe7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2017-04-20 13:03:41" Modified_Date="2025-12-08 14:25:05" Creator="Jesse Batsche" Comments="" ID="edd811fd5dc2b4399b8836e0c42ac71f">
   <Library_General_Settings>
     <Package_File_Name>DMC_VIDoc_Core</Package_File_Name>
-    <Library_Version>0.8.1.13</Library_Version>
+    <Library_Version>0.8.1.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Exports</Library_Output_Folder>
@@ -310,7 +310,7 @@
         <Path>..\UI Interaction</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2268FB8D409BBC3F402C3FAEF30516A</GUID>
+      <GUID>8C56759EA9F0B869B642CCAF010B90A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -373,7 +373,7 @@
         <Path>..\Source\Printer\Report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C397EA138C632338DC4AA7D9E09A035</GUID>
+      <GUID>CE07052DF8D861B5C445F8D6C49C3E13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -436,7 +436,7 @@
         <Path>..\Source\Parsing\Documentation Parser\Fetch Full Documentation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96592561B4D560E2074A98260B09156C</GUID>
+      <GUID>05BEF9E59E498F243CA4368C2518FF66</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -569,7 +569,7 @@
         <Path>..\Source\Printer\Set Iteration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CCABC55F25F8F3BF3E322D4478C70068</GUID>
+      <GUID>4E0DA2335794AF29506EC126243C4DE1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
